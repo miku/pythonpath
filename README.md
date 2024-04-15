@@ -93,7 +93,7 @@ documentation, tutorials, etc.
 ## Installation Options
 
 * Linux Distributions come with Python installed (on Ubuntu, there is
-  "python-is-python3", cf. [AU1296790](https://askubuntu.com/questions/1296790/python-is-python3-package-in-ubuntu-20-04-what-is-it-and-what-does-it-actually)))
+  "python-is-python3", cf. [AU1296790](https://askubuntu.com/questions/1296790/python-is-python3-package-in-ubuntu-20-04-what-is-it-and-what-does-it-actually)
 * [Installation on Windows](InstallWindows.md)
 * On most linux distributions, you will already have Python installed
 * On macOS, there is a homebrew version: [https://docs.brew.sh/Homebrew-and-Python](https://docs.brew.sh/Homebrew-and-Python)
