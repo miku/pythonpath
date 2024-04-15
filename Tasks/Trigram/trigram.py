@@ -1,0 +1,137 @@
+import fileinput
+import collections
+
+langs = {
+    "de": [
+        "ein",
+        "ich",
+        "nde",
+        "die",
+        "und",
+        "der",
+        "che",
+        "end",
+        "gen",
+        "sch",
+        "cht",
+        "den",
+        "ine",
+        "nge",
+        "nun",
+        "ung",
+        "das",
+        "hen",
+        "ind",
+        "enw",
+        "ens",
+        "ies",
+        "ste",
+        "ten",
+        "ere",
+        "lic",
+        "ach",
+        "ndi",
+        "sse",
+        "aus",
+        "ers",
+        "ebe",
+        "erd",
+        "enu",
+        "nen",
+        "rau",
+    ],
+    "en": [
+        "the",
+        "ing",
+        "and",
+        "her",
+        "ere",
+        "ent",
+        "hat",
+        "tha",
+        "nth",
+        "was",
+        "eth",
+        "for",
+        "dth",
+        "his",
+        "ion",
+        "ter",
+        "you",
+        "ith",
+        "ver",
+        "all",
+        "wit",
+        "thi",
+        "tio",
+        "eve",
+        "ate",
+        "con",
+        "nce",
+        "ted",
+        "ive",
+        "sta",
+        "cti",
+        "ess",
+        "not",
+        "iti",
+        "rat",
+        "one",
+    ],
+    "it": [
+        "ale",
+        "all",
+        "anc",
+        "and",
+        "ant",
+        "are",
+        "ato",
+        "att",
+        "che",
+        "chi",
+        "com",
+        "con",
+        "del",
+        "ell",
+        "ent",
+        "era",
+        "ere",
+        "ess",
+        "est",
+        "ett",
+        "gli",
+        "ion",
+        "lla",
+        "men",
+        "non",
+        "nte",
+        "nti",
+        "nto",
+        "olo",
+        "one",
+        "ono",
+        "per",
+        "que",
+        "son",
+        "sta",
+        "ver",
+    ],
+}
+
+def guess(ngrams):
+    counter = collections.Counter()
+    for ngram in ngrams:
+        for k, v in langs.items():
+            if ngram in v:
+                counter[k] += 1
+
+    return counter.most_common()
+
+
+ngrams = []
+for line in fileinput.input():
+    for i in range(0, len(line) - 3):
+        ngrams.append(line[i:i+3])
+
+
+print(guess(ngrams=ngrams))

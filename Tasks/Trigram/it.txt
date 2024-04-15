@@ -1,0 +1,1 @@
+Viswanath scoprì una costante simile al rapporto aureo nella sua successione. Dal momento che la sequenza non è sempre crescente, Viswanath sapeva che la costante sarebbe stata inferiore al rapporto aureo. Tale costante è nota come costante di Viswanath. 
