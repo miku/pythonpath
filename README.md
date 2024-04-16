@@ -36,11 +36,17 @@ Diving into Python.
     * [ ] [notebooks/FunctionalAspects.ipynb](notebooks/FunctionalAspects.ipynb)
     * [ ] [notebooks/TypeHintsOverview.ipynb](notebooks/TypeHintsOverview.ipynb)
 * [ ] Python data munging
+    * [ ] [notebooks/HelloNumpy.ipynb](notebooks/HelloNumpy.ipynb)
     * [ ] [notebooks/HelloPandas.ipynb](notebooks/HelloPandas.ipynb)
     * [ ] [notebooks/Pandas/01 Pandas Basic Access.ipynb](notebooks/Pandas/01 Pandas Basic Access.ipynb)
     * [ ] [notebooks/Pandas/02 Pandas Reading Excel.ipynb](notebooks/Pandas/02 Pandas Reading Excel.ipynb)
     * [ ] [notebooks/Pandas/03 Pandas Aggregations.ipynb](notebooks/Pandas/03 Pandas Aggregations.ipynb)
     * [ ] [notebooks/Pandas/04 Pandas Basic Plotting.ipynb](notebooks/Pandas/04 Pandas Basic Plotting.ipynb)
+
+Extra:
+
+* [notebooks/DataModelOverview.ipynb](notebooks/DataModelOverview.ipynb), ...
+
 
 Examples:
 
