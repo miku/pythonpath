@@ -12,21 +12,46 @@ Diving into Python.
 ### Day 1
 
 * [ ] How Python views the world
-    * [ ] [ExecutionModes.md](ExecutionModes.md)
-    * [ ] [notebooks/python_world_view.ipynb](notebooks/python_world_view.ipynb)
+    * [x] [ExecutionModes.md](ExecutionModes.md)
+    * [x] [notebooks/python_world_view.ipynb](notebooks/python_world_view.ipynb)
 * [ ] Language features
-    * [ ] [notebooks/intro/01.ipynb](notebooks/intro/01.ipynb)
-    * [ ] [notebooks/intro/02.ipynb](notebooks/intro/02.ipynb)
-    * [ ] [notebooks/intro/03.ipynb](notebooks/intro/03.ipynb)
-    * [ ] [notebooks/intro/04.ipynb](notebooks/intro/04.ipynb)
-    * [ ] [notebooks/intro/05.ipynb](notebooks/intro/05.ipynb)
-    * [ ] [notebooks/intro/06.ipynb](notebooks/intro/06.ipynb)
-    * [ ] [notebooks/intro/07.ipynb](notebooks/intro/07.ipynb)
+    * [x] [notebooks/intro/01.ipynb](notebooks/intro/01.ipynb)
+    * [x] [notebooks/intro/02.ipynb](notebooks/intro/02.ipynb)
+    * [x] [notebooks/intro/03.ipynb](notebooks/intro/03.ipynb)
+    * [x] [notebooks/intro/04.ipynb](notebooks/intro/04.ipynb)
 
 ### Day 2
 
+* [ ] Language Features
+    * [ ] [notebooks/intro/05.ipynb](notebooks/intro/05.ipynb)
+    * [ ] [notebooks/intro/06.ipynb](notebooks/intro/06.ipynb)
+    * [ ] [notebooks/intro/07.ipynb](notebooks/intro/07.ipynb)
 * [ ] Python I/O and serializations
     * [ ] [notebooks/IO.ipynb](notebooks/IO.ipynb)
+* [ ] Additional Python Topics
+    * [ ] [notebooks/Exceptions.ipynb](notebooks/Exceptions.ipynb)
+    * [ ] [notebooks/Collections.ipynb](notebooks/Collections.ipynb)
+    * [ ] [notebooks/Generators.ipynb](notebooks/Generators.ipynb)
+    * [ ] [notebooks/Decorators.ipynb](notebooks/Decorators.ipynb)
+    * [ ] [notebooks/FunctionalAspects.ipynb](notebooks/FunctionalAspects.ipynb)
+    * [ ] [notebooks/TypeHintsOverview.ipynb](notebooks/TypeHintsOverview.ipynb)
+* [ ] Python data munging
+    * [ ] [notebooks/HelloPandas.ipynb](notebooks/HelloPandas.ipynb)
+    * [ ] [notebooks/Pandas/01 Pandas Basic Access.ipynb](notebooks/Pandas/01 Pandas Basic Access.ipynb)
+    * [ ] [notebooks/Pandas/02 Pandas Reading Excel.ipynb](notebooks/Pandas/02 Pandas Reading Excel.ipynb)
+    * [ ] [notebooks/Pandas/03 Pandas Aggregations.ipynb](notebooks/Pandas/03 Pandas Aggregations.ipynb)
+    * [ ] [notebooks/Pandas/04 Pandas Basic Plotting.ipynb](notebooks/Pandas/04 Pandas Basic Plotting.ipynb)
+
+Examples:
+
+* [notebooks/Pandas/13 Pandas Example - Geolocations.ipynb](notebooks/Pandas/13 Pandas Example - Geolocations.ipynb) (MUKA)
+* [notebooks/Pandas/14 Pandas Example - Learning about Weather with DWD.ipynb](notebooks/Pandas/14 Pandas Example - Learning about Weather with DWD.ipynb)
+* [notebooks/Pandas/15 Pandas Example - Used Cars.ipynb](notebooks/Pandas/15 Pandas Example - Used Cars.ipynb)
+
+Example (just rendered, data is now 404):
+
+* [https://github.com/miku/sundaypython/blob/master/notebooks/04%20Working%20with%20CSV.ipynb](https://github.com/miku/sundaypython/blob/master/notebooks/04%20Working%20with%20CSV.ipynb)
+
 <!--
     * [ ] Data munging
     * [ ] [notebooks/HelloPandas.ipynb](notebooks/HelloPandas.ipynb)
