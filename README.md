@@ -23,13 +23,13 @@ Diving into Python.
 ### Day 2
 
 * [ ] Language Features
-    * [ ] [notebooks/intro/05.ipynb](notebooks/intro/05.ipynb)
-    * [ ] [notebooks/intro/06.ipynb](notebooks/intro/06.ipynb)
-    * [ ] [notebooks/intro/07.ipynb](notebooks/intro/07.ipynb)
+    * [x] [notebooks/intro/05.ipynb](notebooks/intro/05.ipynb)
+    * [x] [notebooks/intro/06.ipynb](notebooks/intro/06.ipynb)
+    * [x] [notebooks/intro/07.ipynb](notebooks/intro/07.ipynb)
+    * [ ] [notebooks/Exceptions.ipynb](notebooks/Exceptions.ipynb)
 * [ ] Python I/O and serializations
     * [ ] [notebooks/IO.ipynb](notebooks/IO.ipynb)
 * [ ] Additional Python Topics
-    * [ ] [notebooks/Exceptions.ipynb](notebooks/Exceptions.ipynb)
     * [ ] [notebooks/Collections.ipynb](notebooks/Collections.ipynb)
     * [ ] [notebooks/Generators.ipynb](notebooks/Generators.ipynb)
     * [ ] [notebooks/Decorators.ipynb](notebooks/Decorators.ipynb)
@@ -42,6 +42,10 @@ Diving into Python.
     * [ ] [notebooks/Pandas/02 Pandas Reading Excel.ipynb](notebooks/Pandas/02 Pandas Reading Excel.ipynb)
     * [ ] [notebooks/Pandas/03 Pandas Aggregations.ipynb](notebooks/Pandas/03 Pandas Aggregations.ipynb)
     * [ ] [notebooks/Pandas/04 Pandas Basic Plotting.ipynb](notebooks/Pandas/04 Pandas Basic Plotting.ipynb)
+
+Running Python:
+
+* example web application
 
 Extra:
 

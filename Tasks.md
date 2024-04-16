@@ -35,3 +35,10 @@ Example solution: [notebooks/firstlast.ipynb](notebooks/firstlast.ipynb)
 
 Write a language guessing algorithm based on trigrams. 
 
+
+## Bitcoin Price Tracking
+
+* go to https://api.blockchain.com/v3/exchange/tickers
+* request the data
+* write data out as TSV
+* write a separate file that creates a file "trade_volume.tsv" if it does not 
