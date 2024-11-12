@@ -38,10 +38,10 @@ Diving into Python.
 * [ ] Python data munging
     * [ ] [notebooks/HelloNumpy.ipynb](notebooks/HelloNumpy.ipynb)
     * [ ] [notebooks/HelloPandas.ipynb](notebooks/HelloPandas.ipynb)
-    * [ ] [notebooks/Pandas/01 Pandas Basic Access.ipynb](notebooks/Pandas/01 Pandas Basic Access.ipynb)
-    * [ ] [notebooks/Pandas/02 Pandas Reading Excel.ipynb](notebooks/Pandas/02 Pandas Reading Excel.ipynb)
-    * [ ] [notebooks/Pandas/03 Pandas Aggregations.ipynb](notebooks/Pandas/03 Pandas Aggregations.ipynb)
-    * [ ] [notebooks/Pandas/04 Pandas Basic Plotting.ipynb](notebooks/Pandas/04 Pandas Basic Plotting.ipynb)
+    * [ ] [notebooks/Pandas/01_Pandas_Basic_Access.ipynb](notebooks/Pandas/01 Pandas Basic Access.ipynb)
+    * [ ] [notebooks/Pandas/02_Pandas_Reading_Excel.ipynb](notebooks/Pandas/02 Pandas Reading Excel.ipynb)
+    * [ ] [notebooks/Pandas/03_Pandas_Aggregations.ipynb](notebooks/Pandas/03 Pandas Aggregations.ipynb)
+    * [ ] [notebooks/Pandas/04_Pandas_Basic_Plotting.ipynb](notebooks/Pandas/04 Pandas Basic Plotting.ipynb)
 
 Running Python:
 
