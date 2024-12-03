@@ -1,5 +1,14 @@
 # UV
 
+A newer tool, aiming to simplify running python in diverse settings.
+
+* manage python versions
+    * alternative to pyenv
+* setup project (uv init)
+    * manage dependencies
+* run a standalone tool (uvx yt-dlp)
+* install a standalone tool (uv tool install yt-dlp)
+
 ## Setup project
 
 ```
