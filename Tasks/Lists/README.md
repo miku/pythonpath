@@ -25,9 +25,17 @@ Given a two column file, like:
 Tips:
 
 * you can use `open("filename.txt").read()` or the [fileinput](https://docs.python.org/3/library/fileinput.html) module to read from stdin.
+* you can iterate of the lines of a file with a for loop
+
+```
+for line in f:
+    print(line)
+```
+
 * sorting may help, and there is a builtin function for that
 * `sorted`
 * `list.append`
 * `int`
 * `abs`  -- abs(a - b)
+* you can use `range(n)` to generate numbers 0 to n (exclusive)
 
