@@ -3,7 +3,27 @@
 - hosts: localhost
   tasks:
    - name: test custom module
+     # name of our module, from library/hello
      hello:
-     register: uptime
+     # https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#registering-variables
+     register: hey
 
-   - debug: var=uptime
+   - debug: var=hey
+
+# ok: [localhost] => {
+#     "hey": {
+#         "changed": false,
+#         "failed": false,
+#         "message": "This is a simple bash module."
+#     }
+# }
+
+   - name: display message
+     debug:
+       # https://docs.ansible.com/ansible/latest/collections/ansible/builtin/debug_module.html#parameters
+       msg: "{{ hey.message }}"
+
+# ok: [localhost] => {
+#     "msg": "This is a simple bash module."
+# }
+

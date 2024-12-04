@@ -2,3 +2,5 @@
 
 display="This is a simple bash module."
 echo -e "{\"message\":\""$display"\"}"
+
+exit 0
