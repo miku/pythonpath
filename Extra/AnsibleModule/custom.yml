@@ -2,14 +2,29 @@
 
 - hosts: localhost
   tasks:
-   - name: test custom module
-     # name of our module, from library/hello
-     hello:
-     # https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#registering-variables
-     register: hey
+    - name: test custom module
+      # name of our module, from library/hello
+      hello:
+      # https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html#registering-variables
+      register: hey
 
-   - debug: var=hey
+    - debug: var=hey
 
+    - name: display message
+      debug:
+        # https://docs.ansible.com/ansible/latest/collections/ansible/builtin/debug_module.html#parameters
+        msg: "{{ hey.message }}"
+    - name: check if webpage is reachable
+      webcheck:
+        url: https://www.heise.de/
+        expected_status: 200
+    - name: check if 
+      verify_string:
+        file: /tmp/hello-module
+        contains: "This is a test"
+
+# Example outputs
+#
 # ok: [localhost] => {
 #     "hey": {
 #         "changed": false,
@@ -17,13 +32,7 @@
 #         "message": "This is a simple bash module."
 #     }
 # }
-
-   - name: display message
-     debug:
-       # https://docs.ansible.com/ansible/latest/collections/ansible/builtin/debug_module.html#parameters
-       msg: "{{ hey.message }}"
-
+#
 # ok: [localhost] => {
 #     "msg": "This is a simple bash module."
 # }
-

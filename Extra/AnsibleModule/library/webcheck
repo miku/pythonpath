@@ -1,0 +1,44 @@
+#!/usr/bin/python
+
+from ansible.module_utils.basic import AnsibleModule
+import urllib.request
+
+def main():
+    # Define module arguments
+    module_args = dict(
+        url=dict(type='str', required=True),
+        expected_status=dict(type='int', required=True),
+    )
+
+    # Initialize the Ansible module
+    module = AnsibleModule(argument_spec=module_args)
+
+    url = module.params['url']
+    expected_status = module.params['expected_status']
+
+    try:
+        # Make the HTTP GET request
+        req = urllib.request.Request(url)
+        with urllib.request.urlopen(req, timeout=3) as resp:
+            actual_status = resp.getcode()
+
+        # Compare the actual status with the expected status
+        if actual_status == expected_status:
+            module.exit_json(
+                changed=False,
+                msg=f"The URL {url} returned the expected status code {expected_status}.",
+                status=actual_status
+            )
+        else:
+            module.fail_json(
+                msg=f"The URL {url} returned status code {actual_status}, expected {expected_status}.",
+                status=actual_status
+            )
+    except urllib.error.HTTPError as e:
+        module.fail_json(
+            msg=f"Failed to access the URL {url}: {str(e.code)}"
+        )
+        
+
+if __name__ == '__main__':
+    main()
