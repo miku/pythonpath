@@ -26,3 +26,8 @@ Tips:
 
 * you can use `open("filename.txt").read()` or the [fileinput](https://docs.python.org/3/library/fileinput.html) module to read from stdin.
 * sorting may help, and there is a builtin function for that
+* `sorted`
+* `list.append`
+* `int`
+* `abs`  -- abs(a - b)
+
