@@ -11,24 +11,26 @@ Diving into Python.
 
 ### Day 1
 
-* [ ] How Python views the world
-    * [ ] [ExecutionModes.md](ExecutionModes.md)
-    * [ ] [notebooks/python_world_view.ipynb](notebooks/python_world_view.ipynb)
+* [x] How Python views the world
+    * [x] [ExecutionModes.md](ExecutionModes.md)
+    * [x] [notebooks/python_world_view.ipynb](notebooks/python_world_view.ipynb)
 * [ ] Language features
-    * [ ] [notebooks/intro/01.ipynb](notebooks/intro/01.ipynb)
-    * [ ] [notebooks/intro/02.ipynb](notebooks/intro/02.ipynb)
-    * [ ] [notebooks/intro/03.ipynb](notebooks/intro/03.ipynb)
-    * [ ] [notebooks/intro/04.ipynb](notebooks/intro/04.ipynb)
+    * [x] [notebooks/intro/01.ipynb](notebooks/intro/01.ipynb)
+    * [x] [notebooks/intro/02.ipynb](notebooks/intro/02.ipynb)
+    * [x] [notebooks/intro/03.ipynb](notebooks/intro/03.ipynb)
 
 ### Day 2
 
 * [ ] Language Features
+    * [ ] [notebooks/intro/04.ipynb](notebooks/intro/04.ipynb)
     * [ ] [notebooks/intro/05.ipynb](notebooks/intro/05.ipynb)
     * [ ] [notebooks/intro/06.ipynb](notebooks/intro/06.ipynb)
     * [ ] [notebooks/intro/07.ipynb](notebooks/intro/07.ipynb)
     * [ ] [notebooks/Exceptions.ipynb](notebooks/Exceptions.ipynb)
 * [ ] Python I/O and serializations
     * [ ] [notebooks/IO.ipynb](notebooks/IO.ipynb)
+* [ ] Project lifecycle
+    * [ ] [Using uv](UV.md)
 * [ ] Additional Python Topics
     * [ ] [notebooks/Collections.ipynb](notebooks/Collections.ipynb)
     * [ ] [notebooks/Generators.ipynb](notebooks/Generators.ipynb)

@@ -16,7 +16,7 @@
         msg: "{{ hey.message }}"
     - name: check if webpage is reachable
       webcheck:
-        url: https://www.heise.de/
+        url: https://www.heisezzzz.de/
         expected_status: 200
     - name: check if 
       verify_string:

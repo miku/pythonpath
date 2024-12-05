@@ -34,9 +34,9 @@ def main():
                 msg=f"The URL {url} returned status code {actual_status}, expected {expected_status}.",
                 status=actual_status
             )
-    except urllib.error.HTTPError as e:
+    except (urllib.error.HTTPError, urllib.error.URLError) as exc:
         module.fail_json(
-            msg=f"Failed to access the URL {url}: {str(e.code)}"
+            msg=f"Failed to access the URL {url}: {exc}"
         )
         
 
