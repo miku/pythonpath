@@ -10,13 +10,13 @@
 
     - debug: var=hey
 
-    - name: display message
-      debug:
-        # https://docs.ansible.com/ansible/latest/collections/ansible/builtin/debug_module.html#parameters
-        msg: "{{ hey.message }}"
+    # - name: display message
+    #   debug:
+    #     # https://docs.ansible.com/ansible/latest/collections/ansible/builtin/debug_module.html#parameters
+    #     msg: "{{ hey.message }}"
     - name: check if webpage is reachable
       webcheck:
-        url: https://www.heisezzzz.de/
+        url: https://www.heise.de/
         expected_status: 200
     - name: check if 
       verify_string:
